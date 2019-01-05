@@ -1,0 +1,22 @@
+/* E:link 還未連結過　*/
+/* E:visited 已經連結過 */
+/* E:hover 移至連結上　*/
+/* E:active 正在連結中　*/
+/* E:focus 正在聚焦中　*/
+
+.button {
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 3px;
+	background-color: #E2E2E2;
+	color: black;	
+}
+.button:visited {
+	color: black;
+}
+.button:hover {
+	cursor: pointer;
+	background-color: #b23661;
+	color: white;	
+}

@@ -1,0 +1,28 @@
+/* 按下toggle開關，收合menu */
+/* trigram & x-mark */
+/*https://www.toptal.com/designers/htmlarrows/symbols/*/
+/* five ways to change text */
+/*https://css-tricks.com/swapping-out-text-five-different-ways/*/
+
+/* ☰ animated to X *//*
+https://codepen.io/anon/pen/gZRzNd
+https://codepen.io/agragregra/pen/bEbbmZ
+https://codepen.io/riogrande/pen/emdjLR
+http://jsfiddle.net/uwozd36q/1/*/
+
+
+.toggle-switch::after {
+
+  content:'\2630'; /* TRIGRAM ☰ */
+  padding: 0px 30px;
+  font-size: 20px;
+  color: white;
+}
+.toggle-switch.open::after { 
+
+  content: '\2715'; /* MULTIPLICATION X */
+}
+
+
+
+
